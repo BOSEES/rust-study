@@ -1,0 +1,27 @@
+[package]
+name = "simple_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.8.1"
+reqwest = { version = "0.12.12", features = ["json"] }
+serde = { version = "1.0.217", features = ["derive"] }
+serde-xml-rs = "0.6.0"
+serde_json = "1.0.138"
+serde_xml = "0.9.1"
+serde_yaml = "0.9.34"
+tokio = { version = "1.43.0", features = ["full"] }
+toml = "0.8.20"
+
+[[bin]]
+name = "a_server"
+path = "src/bin/a_server.rs"
+
+[[bin]]
+name = "b_server"
+path = "src/bin/b_server.rs"
+
+[[bin]]
+name = "c_server"
+path = "src/bin/c_server.rs"
