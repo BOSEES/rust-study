@@ -32,5 +32,5 @@ curl -X POST "http://127.0.0.1:3000/a" \
 
 ```
 //정상 응답,
-{"age":30,"history":["JSON → YAML","YAML → XML","XML → TOML"],"name":"Alice"}
+{"age":31,"history":["JSON → YAML","YAML → XML","XML → TOML"],"name":"bosees"}
 ```
