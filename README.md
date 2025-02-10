@@ -27,7 +27,7 @@ $ cargo run --bin c_server
 ```
 curl -X POST "http://127.0.0.1:3000/a" \
      -H "Content-Type: application/json" \
-     -d '{"name":"bosees","age":31,"history":[]}'
+     -d '{"name":"bosees","age":32,"history":[]}'
 ```
 
 ```
